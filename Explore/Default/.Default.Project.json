@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "cZknSCMgdSOfesWm8XGviF",
+    "id" : "84lDpglNXAzh310uqYiAUu",
     "name" : "Default",
     "type" : "Project",
     "metadata" : {
@@ -21,6 +21,8 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2024-07-30T04:15:42.437Z",
-  "objectRefs" : [ ]
+  "updateTime" : "2024-10-15T12:10:27.775Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
