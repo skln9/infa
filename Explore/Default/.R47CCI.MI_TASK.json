@@ -13,35 +13,15 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Changed the agent group",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2025-09-13T07:54:26.926Z",
+  "updateTime" : "2025-09-13T07:55:19.676Z",
   "objectRefs" : [ {
-    "id" : "8CJuXPU70zvhE3Y7Oc41kx",
-    "name" : "invrlx7b2b10.informatica.com",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01000G2500000000000E"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
     "id" : "lJsBurwVjUukncSJwFB0gO",
     "name" : "autoonelake",
     "type" : "Connection",
@@ -58,6 +38,26 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8x1qqhubomSeHjBXLt4pm5",
+    "name" : "invub14b2b03",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000G25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"

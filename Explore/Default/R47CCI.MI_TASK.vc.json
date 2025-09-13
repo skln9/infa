@@ -3,6 +3,7 @@
   "icsGuid" : "556Jx2CbKO3bdPR2OUThGd",
   "name" : "R47CCI",
   "id" : 15401,
+  "description" : "Changed the agent group",
   "sourceType" : "CONNECTION",
   "sourceConnection" : {
     "type" : "Fabric OneLake",
@@ -14,7 +15,7 @@
     "name" : "autoonelake",
     "connId" : "01000G0B0000000000GP"
   },
-  "lastModified" : 1726549669000,
+  "lastModified" : 1757750102000,
   "sourceOptions" : {
     "filePatternFilter" : "true",
     "src.file.pattern" : "*.txt",
@@ -31,7 +32,7 @@
     "compression" : "None",
     "fileExistsAction" : "OVERWRITE"
   },
-  "agentGroup" : "01000G2500000000000E",
+  "agentGroup" : "01000G25000000000003",
   "filePickupOption" : "PATTERN",
   "threadCount" : 2,
   "logLevel" : "NORMAL",
@@ -39,5 +40,5 @@
   "identifier" : "15401",
   "fileListenerAsSource" : false,
   "fileListenerAsTrigger" : false,
-  "vcsExportTime" : "2025-09-13 13:24:26 IST"
+  "vcsExportTime" : "2025-09-13 13:25:19 IST"
 }

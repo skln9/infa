@@ -3,7 +3,7 @@
   "icsGuid" : "556Jx2CbKO3bdPR2OUThGd",
   "name" : "R47CCI",
   "id" : 15401,
-  "description" : "",
+  "description" : "Changed the agent group",
   "sourceType" : "CONNECTION",
   "sourceConnection" : {
     "type" : "Fabric OneLake",
@@ -16,7 +16,7 @@
     "connId" : "01000G0B0000000000GP"
   },
   "taskActions" : [ ],
-  "lastModified" : 1726549669000,
+  "lastModified" : 1757750102000,
   "sourceOptions" : {
     "filePatternFilter" : "true",
     "src.file.pattern" : "*.txt",
@@ -33,7 +33,7 @@
     "compression" : "None",
     "fileExistsAction" : "OVERWRITE"
   },
-  "agentGroup" : "01000G2500000000000E",
+  "agentGroup" : "01000G25000000000003",
   "job" : "",
   "schedule" : "",
   "fileListener" : null,
