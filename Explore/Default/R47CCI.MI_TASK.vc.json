@@ -1,0 +1,43 @@
+{
+  "orgId" : "6d7EUtoVBMRbuDWJmcdoCu",
+  "icsGuid" : "556Jx2CbKO3bdPR2OUThGd",
+  "name" : "R47CCI",
+  "id" : 15401,
+  "sourceType" : "CONNECTION",
+  "sourceConnection" : {
+    "type" : "Fabric OneLake",
+    "name" : "autoonelake",
+    "connId" : "01000G0B0000000000GP"
+  },
+  "targetConnection" : {
+    "type" : "Fabric OneLake",
+    "name" : "autoonelake",
+    "connId" : "01000G0B0000000000GP"
+  },
+  "lastModified" : 1726549669000,
+  "sourceOptions" : {
+    "filePatternFilter" : "true",
+    "src.file.pattern" : "*.txt",
+    "src.file.delete" : "KEEP",
+    "src.download.path" : "/suraj/Files/suraj/Demo",
+    "filePickupOption" : "PATTERN",
+    "srcPushdownCopy" : "false",
+    "src.file.pattern.type" : "WILDCARD",
+    "batchSize" : "5",
+    "fileStability" : "false"
+  },
+  "targetOptions" : {
+    "oneLakeTargetLocation" : "/suraj/Files/suraj/tgt",
+    "compression" : "None",
+    "fileExistsAction" : "OVERWRITE"
+  },
+  "agentGroup" : "01000G2500000000000E",
+  "filePickupOption" : "PATTERN",
+  "threadCount" : 2,
+  "logLevel" : "NORMAL",
+  "allowConcurrency" : true,
+  "identifier" : "15401",
+  "fileListenerAsSource" : false,
+  "fileListenerAsTrigger" : false,
+  "vcsExportTime" : "2025-09-13 13:24:26 IST"
+}
