@@ -1,0 +1,38 @@
+{
+  "orgId" : "6d7EUtoVBMRbuDWJmcdoCu",
+  "icsGuid" : "6b8g9j7NVAmdl59zVuA6QD",
+  "name" : "FL_S3_local",
+  "id" : 19886,
+  "sourceType" : "FILE_LISTENER",
+  "sourceConnection" : { },
+  "targetConnection" : {
+    "type" : "local"
+  },
+  "lastModified" : 1762934146000,
+  "sourceOptions" : {
+    "acclerationAction" : "DISABLED",
+    "encryption" : "None",
+    "downloadPartSize" : "50",
+    "multipartDownloadThreshold" : "100",
+    "src.file.delete" : "KEEP",
+    "filePickupOption" : "PATTERN",
+    "batchSize" : "5",
+    "fileStability" : "false"
+  },
+  "targetOptions" : {
+    "fileExistsAction" : "OVERWRITE",
+    "tgt.download.path" : "/root/test2"
+  },
+  "agentGroup" : "01000G2500000000000D",
+  "fileListener" : "9Ae96fk6kocjHoowCNgqyL",
+  "fileListenerName" : "FL_S3",
+  "fileListenerAction" : "19886",
+  "filePickupOption" : "PATTERN",
+  "threadCount" : 1,
+  "logLevel" : "NORMAL",
+  "allowConcurrency" : false,
+  "fileListenerAsSource" : true,
+  "fileListenerAsTrigger" : false,
+  "identifier" : "19886",
+  "vcsExportTime" : "2025-11-12 13:27:06 IST"
+}
